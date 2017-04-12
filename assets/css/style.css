@@ -1,0 +1,111 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding{padding: 80px 0;}
+
+.form-wrap img {
+    display: block;
+    margin: 0 auto;
+}
+section.section-padding {
+    padding: 80px 0;
+}
+
+.blue-quote-form {
+    max-width: 770px;
+    background: #2ab6fb none repeat scroll 0 0;
+    margin-top: -38px;
+    padding-top: 34px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.blue-quote-form h3 {
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.blue-quote-form h3::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -65px;
+    position: absolute;
+    width: 130px;
+}
+.blue-quote-form h3::after {
+    height: 13px;
+    left: 50%;
+    position: absolute;
+    width: 13px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: -6.5px;
+    content: "";
+    margin-left: -6.5px;
+}
+.blue-quote-form input, .blue-quote-form textarea {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border:medium none;
+    border-bottom: 1px solid #8fdafc;
+    color:#fff;
+    padding: 10px 0;
+    width:100%;
+}
+.blue-quote-form textarea{
+    height:100px;
+}
+.blue-form-submit{
+    margin-top: 25px;
+    text-align: center;
+}
+.blue-form-submit button[type="submit"]{
+    background: #fff none repeat scroll 0 0;
+    border:medium none;
+    border-radius: 3px;
+    color:#2ab6fb;
+    padding: 18px;
+    text-transform: uppercase;
+}
+/*input[type="text"] {
+outline-style: none;
+}*/
+[contenteditable="true"]:focus {
+    outline: none;
+}
